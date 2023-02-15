@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conference for Conference Planners Registration Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="registration_styles.css" type="text/css">
+</head>
+<body class="m-3">
+
+<div class="jumbotron">
+    <h1>Conference for Conference Planners Registration</h1>
+</div>
+
+<form class="mx-5"></form>
+
+<div class="row">
+
+<div class="col-md-3">
+    <p>
+        Please complete the registration fields so we can ensure sufficient resources.
+    </p>
+<!--END OF FIRST COLUMN BELOW-->
+</div>
+
+<div class="col-md-9">
+
+    <label for="user-name">
+        Enter your name:
+    </label>
+    <input id="user-name" name="username" class="form-control" type="text" required maxlength="70">
+
+    <br>
+
+    <label for="user-password">
+        Create a password:
+    </label>
+    <input id="user-password" name="password" class="form-control" type="password" required>
+
+    <br>
+
+    <label for="user-email">
+        Enter your email:
+    </label>
+    <input id="user-name" name="email" class="form-control" type="email" required>
+
+    <br>
+
+    <label for="user-DOB">
+        Enter your date of birth:
+    </label>
+    <input id="user-DOB" name="DOB" class="form-control" type="date" required>
+
+    <br>
+
+    <label for="shirt-size">
+        All attendees recieve a free t-shirt. Please select your size below:
+    </label>
+    <br>
+    <select id="shirt-size" required>
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+    </select>
+
+<br>
+<br>
+
+    <label class="form-sessions">Which sessions will you be attending?</label>
+
+    <div class="session-check">
+        <input id="morning-session" name="session-option" class="session-check-input" type="checkbox">
+            <label for="morning-session" class="form-check-label">Morning Session</label>
+    </div>
+    <div class="session-check">
+        <input id="afternoon-session" name="session-option" class="session-check-input" type="checkbox">
+            <label for="afternoon-session" class="form-check-label">Afternoon Session</label>
+    </div>
+
+
+    <label for="user-comments">Please provide comments:</label>
+    <br>
+    <textarea id="user-comments" class="form-control" required></textarea>
+
+
+<br>
+
+<label class="form-text">Are you a current student?</label>
+
+<div class="form-check">
+    <input id="student-yes" name="current-option" class="form-check-input" type="radio" checked="true">
+        <label for="student-yes" class="form-check-label">Yes</label>
+</div>
+<div class="form-check">
+    <input id="student-no" name="current-option" class="form-check-input" type="radio">
+        <label for="student-no" class="form-check-label">No</label>
+</div>
+
+<div></div>
+    <input type="submit" class="btn btn-success mt-4">
+</div>
+
+</form>
+
+<!--END OF SECOND COLUMN BELOW-->
+</div>
+
+<!--END OF ROW BELOW-->
+</div> 
+
+</form>
+
+</body>
+</html>

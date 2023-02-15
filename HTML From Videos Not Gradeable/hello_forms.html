@@ -1,0 +1,79 @@
+<!--MY NOTES FROM THE EXAMPLE VIDEO, NO GRADEABLE MATERIAL HERE-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Forms</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>I'm a really important part of the page!</h1>
+            <p>Important message here</p>
+        </div>
+
+    <h1>Here's the rest of the page</h1>
+    <p>More text! Wooooooo</p>
+
+</div>
+
+<form>
+
+<label for="user-name">
+    Enter your name:
+</label>
+<!--Example of a very simple input - a single line text input box-->
+<input id="user-name">
+
+<br>
+
+<label for="user-name-two">
+    Again:
+</label>
+<!--Require text input-->
+<input id="user-name-two" required type="text">
+<br>
+
+<!--Large textbox for longer form answers-->
+<textarea cols="30" rows="10">Input answer here</textarea>
+
+<br>
+
+<!--Creates a dropdown selector for all options below-->
+<label>
+    Choose an option from the dropdown menu
+</label>
+<select>
+    <option>Option One</option>
+    <option>Option Two</option>
+    <option>Option Three</option>
+    <option>Option Four</option>
+</select>
+
+<br>
+
+<!--Label-->
+<label>Choose an option</label>
+<!---Creates grouped radio buttons, w/o the name the radio buttons don't know that they should be "grouped" together-->
+<input id="radio-option-one" name="Radio-Button-Options" type="radio" checked="true">
+    <label for="radio-option-one">Option One</label>
+<input id="radio-option-two" name="Radio-Button-Options" type="radio">
+    <label for="radio-option-two">Option Two</label>
+
+<br>
+
+<!--Requires a number input and sets a default, in this case the number 2-->
+<input type="number" value="2">
+
+<br>
+
+<!--Submits data to server-->
+<input type="submit">
+
+</form>
+
+</body>
+</html>
+

@@ -1,0 +1,24 @@
+.jumbotron {
+    background-color: rgb(241, 218, 195);
+    color: rgb(163, 99, 235);
+    text-align: center;
+}
+
+body {
+    background-color: #363633;
+    color: whitesmoke;
+}
+
+.code-style {
+    color: aqua;
+}
+
+h6 {
+    font-size: xx-large;
+    color: rgb(116, 230, 116);
+    text-align: center;
+}
+
+h4 {
+    text-decoration: underline;
+}

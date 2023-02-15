@@ -1,0 +1,54 @@
+body{
+    background-color: deepskyblue;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 52px;
+}
+
+.missile-link {
+    display:block;
+    border-style: solid;
+    font-size: 44px;
+    padding: 50px;
+    margin: 15px;
+    color: white;
+}
+
+#real-alert {
+    background-color: red;
+}
+
+#real-alert:hover {
+    background-color: black;
+    opacity: .9;
+    color: red;
+    text-transform: uppercase;
+}
+
+#real-alert:hover span{
+    color: red;
+}
+
+#danger {
+    color: red;
+}
+
+#test-only {
+    background-color: green;
+}
+
+#test-only:hover span{
+    color: white;
+}
+
+#happy {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}

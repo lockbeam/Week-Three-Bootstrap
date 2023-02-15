@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Send Missile Alert</title>
+  <link rel="stylesheet" href="missile_style.css">
+</head>
+<body>
+
+    <h1>Missile Alerts</h1>
+
+    <a id="real-alert" class="missile-link" href="#">Send Missile Alert<span id="danger">:<br>ARE YOU SURE???</span></a>
+    <a id="test-only" class="missile-link" href="#">Send Test Missile Alert <span id="happy"><br>:)</span></a>
+
+</body>
+</html>
