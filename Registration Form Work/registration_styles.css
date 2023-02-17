@@ -1,0 +1,10 @@
+.jumbotron {
+    background-color: grey;
+    color: rgb(139, 2, 2);
+    font-family:  'Roboto', sans-serif;
+}
+
+body {
+    font-family:  'Alice', serif;
+    background: linear-gradient(#DECBA4, #3E5151);
+}
